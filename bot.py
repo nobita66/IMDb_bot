@@ -55,7 +55,7 @@ def reply(update, context):
 
 def main():
 
-    updater = Updater("1476373283:AAHrdQE394_J8qd78J974y_AwVdwrsis1r0", use_context=True)
+    updater = Updater("6364774376:AAFBkZ7-0XtBAYIqIbwYAs_uyIDbLx9X04E", use_context=True)
     dp = updater.dispatcher
     
     dp.add_handler(CommandHandler("start", start))
